@@ -1,0 +1,39 @@
+<html>
+<head><title>Form Biodata</title></head>
+<body>
+
+<form action="cetak.php" method="post">
+<tr>
+<td colspan="1">&nbsp;</td>
+<td align="left"colspan="5"><font face="Bradley Hand ITC" size="10" color="Maroon">My Form</td></font>
+</tr>
+
+<td>
+<p>
+Nama         <br><input type="text" name="  nama"/></p>
+<p>
+Alamat       <br><input type="text" name="alamat"/></p>
+
+<p>Jenis Kelamin:</p>
+<input type="radio" name="sex" value="man"/>laki - laki
+<input type="radio" name="sex" value="woman"/>Perempuan
+<p>Pekerjaan    :</p>
+</td>
+
+<select name ="pekerjaan">
+<option value="pelajar">Pelajar</option>
+<option value="Mahasiswa">Mahasiswa</option>
+<option value="Aktivis">Aktivis</option>
+</select>
+            <p>
+Hobby           :</p>
+<input type="checkbox" name="hobby" value="Sepakbola"/>Facebookan
+<input type="checkbox" name="hobby" value="Main Komputer"/>Main Komputer
+<input type="checkbox" name="hobby" value="Tidur"/>Dakwah
+<p>
+<input type="Submit" value="Kirim data"/>
+<input type="Reset" value="Ulangi"/></p>
+
+</form>
+</body>
+</html>
